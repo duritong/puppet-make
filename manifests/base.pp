@@ -1,5 +1,5 @@
 class make::base {
-    package{'make':
-        ensure => installed,
-    }
+  package{'make':
+    ensure => installed,
+  }
 }

@@ -3,8 +3,8 @@
 # GPLv3
 
 class make {
-    case $operatingsystem {
-        gentoo: { include make::gentoo }
-        default: { include make::base }
-    }
+  case $::operatingsystem {
+    gentoo: { include make::gentoo }
+    default: { include make::base }
+  }
 }
